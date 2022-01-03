@@ -10,7 +10,7 @@ export default function VeryFunnyDad() {
         return Math.floor(Math.random() * max);
     }
     function handleClick() {
-        let index = getRandomInt(14);
+        let index = getRandomInt(30);
         setJoke(Jokes[index].joke);
         setPunchline(Jokes[index].punchline);
     }
